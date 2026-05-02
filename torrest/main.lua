@@ -2,9 +2,9 @@
 local socket  = require("socket")
 local http = require "socket.http"
 local ltn12 = require "ltn12"
-local json = require "cjson"
---- dkjson
-local util = require "cjson.util"
+local json = require "dkjson"
+--local json = require "cjson"
+--local util = require "cjson.util"
 
 local ip = "127.0.0.1"
 local port = "8987"
