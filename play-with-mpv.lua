@@ -1,6 +1,6 @@
 local socket = require("socket")
 local uri = require('uri')
-
+--- https://github.com/cyx/uri.lua/blob/master/uri.lua
 -- Биндим порт
 local server = assert(socket.bind("0.0.0.0", 7531))
 server:settimeout(0) -- ВАЖНО: неблокирующий режим
